@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+class SubArray {
     public ArrayList<Integer> subarraySum(int[] arr, int N, int S) {
         ArrayList<Integer> result = new ArrayList<>();
         
@@ -29,7 +29,7 @@ class Solution {
         return result;
     }
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SubArray solution = new SubArray();
         
         int[] arr1 = {1, 2, 3, 7, 5};
         int N1 = 5;
